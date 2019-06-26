@@ -29,9 +29,8 @@ Olá! Meu nome é *{}*.
 Eu sou um bot de gerenciamento de grupo modular com alguns extras divertidos! Dê uma olhada no seguinte para ter uma ideia de algumas as coisas que eu posso te ajudar.
 *MENU* comandos disponíveis:
  - /start: start the bot
- - /help: PM's you this message.
- - /help <module name>: PM's you info about that module.
- - /donate: information about how to donate!
+ - /help: pv você tem informações sobre Mim.
+ - /help <module name>: Pv você tem informações sobre esse módulo.
  - /settings:
    - in PM: will send you your settings for all supported modules.
    - in a group: will redirect you to pm, with all that chat's settings.
@@ -40,12 +39,7 @@ Eu sou um bot de gerenciamento de grupo modular com alguns extras divertidos! D�
 And the following:
 """.format(dispatcher.bot.first_name, "" if not ALLOW_EXCL else "\nAll commands can either be used with / or !.\n")
 
-DONATE_STRING = """Heya, glad to hear you want to donate!
-It took lots of work for my creator to get me to where I am now, and every donation helps \
-motivate him to make me even better. All the donation money will go to a better VPS to host me, and/or beer \
-(see his bio!). He's just a poor student, so every little helps!
-There are two ways of paying him; [PayPal](paypal.me/PaulSonOfLars), or [Monzo](monzo.me/paulnionvestergaardlarsen)."""
-
+DONATE_STRING = """ feliz em ouvir que você quer doar! Levou muito trabalho para o meu criador me levar até onde estou agora, e toda doação ajuda motivá-lo a me tornar ainda melhor. Todo o dinheiro da doação irá para um melhor VPS para me hospedar, e / ou cerveja (veja sua biografia!). Ele é apenas um estudante pobre, então cada pequeno ajuda! Existem duas maneiras de pagá-lo; [Criador] (t.me/fraviu) ou [Channel] (t.me/Fraviu). "" "
 IMPORTED = {}
 MIGRATEABLE = []
 HELPABLE = {}
